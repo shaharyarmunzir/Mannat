@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.h h1{
+    text-align: center;
+    font-size: 3rem;
+    /* margin-top: 50px; */
+    margin-bottom: 20px;
+    color: rgba(14, 111, 14, 0.787);
+    text-decoration: underline;
+}
+.form2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    font-size: 1.5rem;
+    /* border: 2px solid red; */
+    box-shadow: 0 2px 6px 2px;
+}
+.form2 img{
+    width:100px; 
+}
+.form2 input,textarea,option{
+    width: 80%;
+    height: 5vh;
+    padding: 10px;
+}
+.form2 .btnn{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    width:50% ;
+    height:5vh;
+    color: white;
+    background: rgba(14, 111, 14, 0.787);
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 2px 6px 2px;
+}
+.form2 .btnn:hover{
+    background: rgba(53, 142, 53, 0.787);
+    color: black;
+}
+.i{
+    display: flex;
+}
+.i .l{
+    font-size: 1rem;
+    color: red;
+}
+#form1{
+    display: flex;
+}
+.a img{
+    margin-top: 5px;
+    margin-left: 50px;
+    width: 98%;
+    height: 100vh;
+}
+.a img:hover{
+    box-shadow: 0 2px 6px 2px;
+}
+.a h1{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 3rem;
+}
+.a h1 span{
+    color: rgba(14, 111, 14, 0.787);
+    text-decoration: underline;
+}
+/* single img with some small img */
+#photo{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.bphoto img{
+    width: 150px;
+}
+     /* popup */
+     #up {
+        position: fixed;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 150px;
+        padding-right: 50px;
+        box-shadow: 0px 2px 6px 2px;
+        background: white;
+        visibility: hidden;
+        opacity: 0;
+        transition: 0.5s;
+    }
+    
+    #up.active {
+        top: 55%;
+        visibility: visible;
+        opacity: 1;
+        transform: 0.5s;
+    }
+    #up a {
+        padding: 0px 14px;
+        background: red;
+        color: white;
+        text-decoration: none;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    #up a:hover {
+        background: rgb(203, 46, 46);
+    }

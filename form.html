@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <section id="product" >
+        <div class="product1">
+            <section id="form1">
+        <div class="form2">
+            <div class="h">
+                <h1>FILL THE FORM</h1>
+            </div>
+            NAME:-<input type="text" placeholder="NAME" name="name" id="name">
+            E-MAIL_ID:-<input type="email" name="email" id="email" placeholder="E-MAIL_ID">
+            PHONE NO.:-<input type="phone" placeholder="PHONE" name="phone" id="phone">
+            ALTERNATE-PHONE NO.:-<input type="phone" placeholder="ALTERNATE-PHONE NO" name="phone1" id="phone1">
+            QUANTITY:- <input type="number">
+            SELECT SIZE:-<select>
+                <option>
+                    select size
+                </option>
+                <option>
+                    M
+                </option>
+                <option>
+                    S
+                </option>
+                <option>
+                    L
+                </option>
+                <option>
+                    XL
+                </option>
+                <option>
+                    XXL
+                </option>
+            </select><br>
+            ADDRESS:-<textarea name="address" id="address" cols="30" rows="10" placeholder="ADDRESS"></textarea>
+            <button class="btnn" onclick="window.location='shop.html'">ORDER</button>
+
+            <p>PAYMENT METHOD:</p>
+            <div class="i">
+                  <input type="radio" id="upi" name="fav_language" value="upi" class="l" onclick="toggle()">
+                  <label for="upi">UPI</label>
+                  <input type="radio" id="cod" name="fav_language" value="cod" class="l">
+                  <label for="cod">COD</label><br>
+            </div>
+        </div>
+        <div class="a">
+            <h1>THANK <span>-YOU</span></h1>
+            <img src="image/winter2.jpeg" alt="">
+        </div>
+    </section>
+
+    </section>
+    <!-- single page blog -->
+    
+    <div id="up">
+        <a href="" onclick="toggle()">x</a>
+        <section id="info">
+            <div id="photo">
+                <div class="bphoto">
+                    <img src="image/qr.png" alt="" id="mainimage">
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
+<script src="main.js"></script>

@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* this is for nav-bar */
+#navbar {
+    display: flex;
+    box-shadow: 0 2px 6px 2px gray;
+    position: fixed;
+    width: 100%;
+    /* margin-top: -50px; */
+    background: white;
+    z-index: 1;
+}
+
+#navbar .logo {
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 478px;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 6px 2px rgb(0, 100, 93);
+}
+
+#navbar .logo .c1 {
+    color: rgb(242, 72, 72);
+}
+
+#navbar .logo .c2 {
+    color: rgb(16, 20, 247);
+}
+
+#navbar .logo .c3 {
+    color: rgb(126, 39, 167);
+}
+
+#navbar .logo .c4 {
+    color: rgb(18, 190, 92);
+}
+
+#navbar .logo .c5 {
+    color: rgb(28, 178, 181);
+}
+
+#navbar .logo .c6 {
+    color: rgb(211, 141, 21);
+}
+
+#navbar .nav1 ul {
+    display: flex;
+}
+
+#navbar .nav1 ul li {
+    list-style: none;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#navbar .nav1 ul li a {
+    text-decoration: none;
+    margin-inline: 25px;
+    color: rgb(6, 6, 6);
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 17px;
+    cursor: pointer;
+}
+
+#navbar .nav1 ul li a:hover {
+    color: white;
+    background-color: rgb(0, 100, 93);
+
+}
+/* <!-- blog img --> */
+.bimg img{
+    width: 350px;
+    margin-left: 100px;
+    margin-right: 50px;
+    box-shadow: 0 2px 6px 2px;
+    border-radius: 120px;
+}
+.bimg img:hover{
+    box-shadow: 2px 4px 8px 4px;
+}
+.ball{
+    padding-top: 50px;
+    display: flex;
+}
+.btext{
+    /* text-align: center; */
+    width: 60%;
+    padding-top: 10px;
+}
+#blog h1{
+    padding-top: 80px;
+    text-align: center;
+    font-size: 4rem;
+    color: rgba(8, 93, 8, 0.539);
+    text-decoration: underline;
+}
+/* footer */
+#footer{
+    padding-left: 30px;
+    margin-top: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-shadow: 0 2px 6px 2px;
+    display: flex;
+}
+.footerl{
+    width: 400px;
+}
+.footerl h1{
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.footerl h2{
+    font-size: 20px;
+    color: rgb(62, 62, 62);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footerl h2 span{
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+}
+.footer2{
+    width: 300px;
+    margin-left: 50px;
+}
+.footer2 h1{
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.footer2 h2{
+    font-size: 20px;
+    color: rgb(62, 62, 62);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer2 .a{
+    padding: 4px 20px;
+    background: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 5px;
+}
+.footer2 .b{
+    padding: 4px 20px;
+    background: white;
+    border-radius: 5px;
+}
