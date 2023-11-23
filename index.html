@@ -4,6 +4,318 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mannat!</title>
+    <style>
+        @media (max-width:950px) {
+            #navbar1 {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -550px;
+        height: 220vh;
+        width: 500px;
+        background: rgb(192, 189, 189);
+        box-shadow: 0 40px 60px 40px rgba(0, 0, 0, 0.1);
+        padding: 80px 0 0 10px;
+        transition: 0.5s;
+    }
+            #navbar{
+                height: 20vh;
+            }
+
+            #navbar1.active {
+                right: 0px;
+                margin-top: 169px;
+            }
+
+            #navbar1 li {
+                margin-bottom: 25px;
+            }
+
+            #navbar .nav1 ul li a {
+                text-decoration: none;
+                margin-inline: 25px;
+                color: rgb(6, 6, 6);
+                font-size: 60px;
+                font-weight: bolder;
+                padding: 17px;
+                cursor: pointer;
+            }
+
+            #navbar .nav1 ul {
+                display: flex;
+                flex-direction: column;
+            }
+            #navbar .logo {
+            font-size: 3.5rem;
+            padding-top: 50px;
+        }
+            
+            /* home start here */
+            #home {
+                width: 353%;
+                height: 71vh;
+            }
+
+            /* services */
+            .services1 {
+                display: flex;
+            }
+
+            .services {
+                width: 250px;
+            }
+
+            /* moving images */
+            .k {
+                width: 1330px;
+
+            }
+
+            .moving {
+                width: 150%;
+                margin-left: 410px;
+            }
+
+            /* sell products */
+            #product h1 {
+                text-align: center;
+                margin-top: 50px;
+                font-size: 3rem;
+                font-weight: bold;
+            }
+
+            #product span {
+                color: rgb(0, 100, 93);
+            }
+
+            #product p {
+                text-align: center;
+                font-size: 1.2rem;
+                font-weight: bold;
+                color: rgb(0, 100, 93);
+                margin-bottom: 50px;
+            }
+
+            .cloths {
+                box-shadow: 0 2px 6px 2px;
+                width: 600px;
+                margin-left: 15px;
+                border-radius: 20px;
+                height: 112vh;
+                margin-bottom: 50px;
+            }
+
+            .cloths img {
+    width: 500px;
+    height: 70vh;
+    margin-left: 54px;
+    margin-top: 35px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+
+            .cloths h2 {
+                margin-left: 14px;
+                color: rgb(0, 100, 93);
+                font-size: 2.5rem;
+            }
+
+
+            .cart h4 {
+                margin-left: 14px;
+                color: rgb(0, 100, 93);
+                font-size: 2.4rem;
+                margin-right: 135px;
+            }
+
+
+            .product1 {
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+
+            #product {
+                width: 350%;
+                margin-left: 64px;
+            }
+
+            /* add */
+            #add {
+                background: url("https://m.media-amazon.com/images/S/aplus-media/sota/4998de6b-4c64-4788-87fc-b69bbddcf565.__CR0,0,1464,600_PT0_SX1464_V1___.jpg");
+                width: 353%;
+                height: 50vh;
+                margin-left: 30px;
+                background-size: cover;
+                background-position: center;
+            }
+
+            #add h3 {
+                text-align: center;
+                padding-top: 70px;
+                font-size: 1.5rem;
+            }
+            .buy2 img{
+                width: 650%;
+                padding-left: 50px;
+                
+            }
+
+            #add h1 {
+                text-align: center;
+                font-size: 3rem;
+                padding: 10px;
+                color: white;
+            }
+
+            #add h1 span {
+                color: red;
+            }
+
+            #add .btns {
+                margin-left: 580px;
+
+            }
+
+
+            /* New arrival  */
+            #arrivals {
+                width: 350%;
+                margin-left: 64px;
+            }
+
+            /*  buy 1 get 1 (buy1) */
+            .buy1 {
+                background: url("image/bg5.jpg");
+                width: 50%;
+                height: 70vh;
+                background-size: cover;
+                background-position: center;
+                margin-right: 10px;
+            }
+
+            #plane {
+                width: 300%;
+            }
+
+            /*  buy 1 get 1 (buy2) */
+            .buy2 {
+                background: url("image/bg33.jpeg");
+                width: 50%;
+                height: 70vh;
+                background-size: cover;
+                background-position: center;
+            }
+
+            /* winter */
+            #winter {
+                display: flex;
+                width: 300%;
+                margin-left: 80px;
+            }
+
+            #footer {
+                padding-left: 30px;
+                margin-top: 30px;
+                padding-top: 50px;
+                padding-bottom: 50px;
+                /* box-shadow: 0 2px 6px 2px; */
+                display: flex;
+                width: 1300px;
+            }
+
+            /* popup */
+            #up {
+                width: 1630px;
+                height: 500vh;
+                padding-top: 1501px;
+                padding-left: 350px;
+
+            }
+
+            #up a {
+                margin-left: 80px;
+
+            }
+
+            #info {
+                display: contents;
+            }
+
+            .bphoto img {
+                width: 950px;
+            }
+
+
+
+
+
+
+
+
+
+
+            /* text part */
+
+            #text {
+                width: 900px;
+            }
+
+            #text h3 {
+                font-size: 50px;
+                margin-bottom: 20px;
+            }
+
+            #text h1 {
+                font-size: 5.2rem;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+
+            #text h2 {
+
+                font-size: 3.5rem;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+
+            #text h4 {
+                font-size: 5.5rem;
+                margin-top: 25px;
+                margin-bottom: 20px;
+            }
+
+            #text p {
+                font-size: 2rem;
+                color: rgb(43, 42, 42);
+                margin-bottom: 20px;
+            }
+
+            #text button {
+                width: 250px;
+                height: 90px;
+                font-size: 2.5rem;
+            }
+
+            #opt {
+                width: 250px;
+                height: 90px;
+                font-size: 2.5rem;
+                margin-bottom: 10px;
+            }
+
+            #num {
+                width: 250px;
+                height: 90px;
+                font-size: 2.5rem;
+                margin-bottom: 10px;
+            }
+
+        }
+    </style>
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="mainR.css">
 </head>
